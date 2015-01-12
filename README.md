@@ -1,5 +1,4 @@
-The Art of Text Analysis
+The Art of Literary Text Analysis
 ====
 
-This is a place-holder file for an effort to create a useful guide to interpretive text analysis. Art of Text Analysis
 
