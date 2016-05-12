@@ -1104,11 +1104,11 @@ it now." Here Legrand, having re-heated the parchment, submitted it to
 my inspection. The following characters were rudely traced, in a red
 tint, between the death's-head and the goat:
 
-  "53##|305))6*;4826)4#)4#);806*;48|8¶60))85;1#);:#
-  *8|83(88)5*|;46(;88*96*?;8)*#(;485);5*|2:*#(;4956*
-  2(5*--4)8¶8*;4069285);)6|8)4##;1(#9;48081;8:8#1;4
-  8|85;4)485|528806*81(#9;48;(88;4(#?34;48)4#;161;:
-  188;#?;"
+  "53‡‡†305))6*;4826)4‡)4‡);806*;48†8¶60))85;1‡);:‡
+  *8†83(88)5*†;46(;88*96*?;8)*‡(;485);5*†2:*‡(;4956*
+  2(5*--4)8¶8*;4069285);)6†8)4‡‡;1(‡9;48081;8:8‡1;4
+  8†85;4)485†528806*81(‡9;48;(88;4(‡?34;48)4‡;161;:
+  188;‡?;"
 
 "But," said I, returning him the slip, "I am as much in the dark as
 ever. Were all the jewels of Golconda awaiting me upon my solution of
@@ -1160,11 +1160,11 @@ Of the character 8 there are 33.
 
                           ;        "     26.
                           4        "     19.
-                        # )        "     16.
+                        ‡ )        "     16.
                           *        "     13.
                           5        "     12.
                           6        "     11.
-                        | 1        "      8.
+                        † 1        "      8.
                           0        "      6.
                         9 2        "      5.
                         : 3        "      4.
@@ -1227,11 +1227,11 @@ juxtaposition.
 the combination;48, and employ it by way of _termination_ to what
 immediately precedes. We have thus this arrangement:
 
-the tree;4(#?34 the,
+the tree;4(‡?34 the,
 
 or, substituting the natural letters, where known, it reads thus:
 
-the tree thr#?3h the.
+the tree thr‡?3h the.
 
 "Now, if, in place of the unknown characters, we leave blank spaces, or
 substitute dots, we read thus:
@@ -1240,7 +1240,7 @@ the tree thr...h the,
 
 when the word '_through_' makes itself evident at once. But this
 discovery gives us three new letters, _o_, _u_ and _g_, represented by
-#? and 3.
+‡? and 3.
 
 "Looking now, narrowly, through the cipher for combinations of known
 characters, we find, not very far from the beginning, this arrangement,
@@ -1248,7 +1248,7 @@ characters, we find, not very far from the beginning, this arrangement,
 83(88, or egree,
 
 which, plainly, is the conclusion of the word 'degree,' and gives us
-another letter, _d_, represented by |.
+another letter, _d_, represented by †.
 
 "Four letters beyond the word 'degree,' we perceive the combination
 
@@ -1262,7 +1262,7 @@ _i_ and _n_, represented by 6 and *.
 "Referring, now, to the beginning of the cryptograph, we find the
 combination,
 
-53##|.
+53‡‡†.
 
 "Translating, as before, we obtain
 
@@ -1275,13 +1275,13 @@ words are 'A good.'
 tabular form, to avoid confusion. It will stand thus:
 
                 5 represents      a
-                |       "         d
+                †       "         d
                 8       "         e
                 3       "         g
                 4       "         h
                 6       "         i
                 *       "         n
-                #       "         o
+                ‡       "         o
                 (       "         r
                 ;       "         t
 
@@ -1457,7 +1457,3 @@ But this labor concluded, he may have thought it expedient to remove
 all participants in his secret. Perhaps a couple of blows with a mattock
 were sufficient, while his coadjutors were busy in the pit; perhaps it
 required a dozen--who shall tell?"
-
-
-
-
