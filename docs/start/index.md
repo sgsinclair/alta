@@ -1,14 +1,14 @@
 # Getting Started with the Art of Literary Text Analysis
 
-This is part of the [Art of Literary Text Mining](../) collection. This page is intended to briefly describe how to get setup and configured with our three environments: Voyant Tools, Juypter Notebooks, ObservableHQ.
+This is part of the [Art of Literary Text Mining](../) collection. This page is intended to briefly describe how to get started with our three environments: Voyant Tools, Juypter Notebooks, ObservableHQ.
 
-So you want to do some text analysis, but where to start? Let's imagine that we have a favourite news source and we want to try to determine what's being discussed (without necessarily just reading the front page articles). You can do this with most websites and media outlets, but for the purposes of this example, let's say that we want to look at the Canadian Broadcasting Corporation (Canada's public Anglophone broadcaster) at https://cbc.ca
+So you want to do some text analysis, but where to start? Let's imagine that we have a favourite news source and we want to try to determine what's being discussed (without necessarily just reading the front page articles). You can do this with most websites and media outlets, but for the purposes of this example, let's say that we want to look at the Canadian Broadcasting Corporation (Canada's public Anglophone broadcaster) at [CBC.ca](https://cbc.ca).
 
 ## Voyant
 
 ![Voyant](../images/voyant48.png) In Voyant analyzing the contents of a URL is dead simple, all that needs to be done is to visit the main page [voyant-tools.org](https://voyant-tools.org) and paste in the URL of interest. We can also use the query parameters (part of the URL) to specify an input argument:
 
-	[https://voyant-tools.org/?<span style='background-color: yellow'>input=<span style='color: red'>https://cbc.ca</span></span>](https://voyant-tools.org/?corpus=9094634e2f37d5e29cf93431c4c7bb5a&input=https://www.cbc.ca)
+[https://voyant-tools.org/?<span style='background-color: yellow'>input=<span style='color: red'>https://cbc.ca</span></span>](https://voyant-tools.org/?corpus=9094634e2f37d5e29cf93431c4c7bb5a&input=https://www.cbc.ca)
 
 The full interface can show some interesting aspects, but even just the summary points out some interesting aspects. For instance, even though the CBC page is essentially a compilation of blocks linking to other pages we can see that our corpus contains only one document:
 
@@ -20,11 +20,11 @@ We said we wouldn't read the page directly, but it is worth having a look at wha
 
 What we see is that there's a main title on the page "CBC.ca - watch, listen, and discover with Canada's Public Broadcaster…" but there's also navigational items like "Skip to Main Content", "CBCMenu", and "Search". While there's nothing wrong with that necessarily, it may be misleading to think that the news is talking about search (and rescue, for instance), when we have a keyword that is really from the navigational elements of the page (sometimes called paratextual elements). Can we do better?
 
-<img alt="DOM-model.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png" decoding="async" width="220" height="228" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/330px-DOM-model.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/440px-DOM-model.svg.png 2x" data-file-width="428" data-file-height="443"> We can, and the way we do that is to dive into an exploration of what's called the [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model), that is, the hierarchical elements that are part of the tree of this web document.
+<img alt="DOM-model.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png" decoding="async" width="220" height="228" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/330px-DOM-model.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/440px-DOM-model.svg.png 2x" data-file-width="428" data-file-height="443" style="float: right"> We can, and the way we do that is to dive into an exploration of what's called the [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model), that is, the hierarchical elements that are part of the tree of this web document.
 
 ### The DOM and CSS Selectors
 
-HTML is a markup language that starts with a root node or tag (usually &lt;html&gt;), then splits into a y &lt;head&gt; and a y &lt;body&gt;, each of which may have its own children nodes (or tags or text). Within the DOM there are also ways of identifying unique elements and group similar elements into a class of objects that share some characteristics. This is precisely the syntax that's used to add styling to pages using Cascading Stylesheets (CSS).
+HTML is a markup language that starts with a root node or tag (usually &lt;html&gt;), then splits into a &lt;head&gt; and a &lt;body&gt;, each of which may have its own children nodes (or tags or text). Within the DOM there are also ways of identifying unique elements and group similar elements into a class of objects that share some characteristics. This is precisely the syntax that's used to add styling to pages using Cascading Stylesheets (CSS).
 
 | Examples | Type | Explanation |
 |-|-|-|
