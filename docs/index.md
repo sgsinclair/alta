@@ -16,7 +16,7 @@ Why work through the materials of more than one guide? One reason is to fully ap
 
 ## Comparison
 
-| | ![Voyant](images/voyant3.png)<br>Voyant | ![Jupyter](images/jupyter3.png)<br>Juypter | ![ObservableHQ](images/observable3.png)<br>ObservableHQ+VoyantJS |
+| | ![Voyant](images/voyant300.png)<br>Voyant | ![Jupyter](images/jupyter300.png)<br>Juypter | ![ObservableHQ](images/observable300.png)<br>ObservableHQ+VoyantJS |
 |-|-|-|-|
 | **setup&nbsp;and&nbsp;configuration** | no setup for hosted version, easy desktop version | usually requires some setup | no setup | 
 | **text&nbsp;analysis&nbsp;specificity** | text analysis specific | infinitely generalizable | mixed specificity of VoyantJS for text analysis and Javascript more generally |
