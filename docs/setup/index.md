@@ -26,7 +26,7 @@ If you're trying to get the Desktop version functioning and it won't, there are 
 
 The recommended approach is to intall Anaconda on your system. Think of Anaconda its own environment that's installed on your system and that is isolated from other important system files. Anaconda is a sandbox that contains the Jupyter application and the Jupyter application allows you to create Jupyter notebooks.
 
-![Anaconda Architecture](anaconda-architecture.png)
+![Anaconda Architecture](jupyter-architecture.png)
 
 Unlike Voyant and ObservableHQ that are always-available web applications, Jupyter Notebooks has to be launched and be running in order to be used. This is an important distinction from our other environments: a "live" notebook (that can be edited) must have a process running somewhere, most likely on your computer. That process stores current contents in memory and handles the execution of code. So getting started each time will involve the following steps:
 
