@@ -26,7 +26,7 @@ Why work through the materials of more than one guide? One reason is to fully ap
 ## Topics
 
 * [setup the environments](./setup/)
-* [getting started](./startup/)
+* [getting started](./start/)
 * [compiling a corpus](./compile/)
 * pre-processing a corpus
 * frequency
