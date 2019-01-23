@@ -1,6 +1,6 @@
 # Getting Started with the Art of Literary Text Analysis
 
-This is part of the [Art of Literary Text Mining](../) collection. This page is intended to briefly describe how to get started with our three environments: Voyant Tools, Juypter Notebooks, ObservableHQ.
+This is part of the [Art of Literary Text Mining](../) collection. This page is intended to briefly describe how to get started, particularly with Voyant Tools.
 
 So you want to do some text analysis, but where to start? Let's imagine that we have a favourite news source and we want to try to determine what's being discussed (without necessarily just reading the front page articles). You can do this with most websites and media outlets, but for the purposes of this example, let's say that we want to look at the Canadian Broadcasting Corporation (Canada's public Anglophone broadcaster) at [CBC.ca](https://cbc.ca).
 
