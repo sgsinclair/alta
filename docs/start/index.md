@@ -57,3 +57,8 @@ Voyant allows you to define a corpus with multiple documents using the "Document
 Most web pages are rendered from the HTML code that is sent from the server to the browser, but there are cases where the browser receives further instructions to fetch and generate parts of a page. Those interactively generated pages probably won't work with Voyant (and other similar systems) since it can only see the HTML that's initially sent, not the rest of the content that is fetched after the page has loaded.
 
 Voyant (and similar systems) can only work with the content that is fetched from the URL but in some cases you may be looking at priviledged content that you can see in your browser but that's invisible to the server (the contents of your Facebook page, for instance). Any URL sent to Voyant assumes that the content is open and essentially the same regardless of who is fetching the page.
+
+## Jupyter Notebook
+
+![Jupyter](../images/jupyter48.png) We can also see the DOM and CSS Selection at play in our Jupyter Notebook for [Getting Started](https://nbviewer.jupyter.org/github/sgsinclair/alta/blob/master/ipynb/GettingStarted.ipynb). The notebook walks through the steps of creating a new notebook and some basic Python syntax, but if you don't need that you can skip ahead to the [Fetch URL Example](https://nbviewer.jupyter.org/github/sgsinclair/alta/blob/master/ipynb/GettingStarted.ipynb#Fetch-URL-Example).
+
