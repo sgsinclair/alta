@@ -36,12 +36,20 @@ Web scraping is such a common task that there are dedicated tools for doing it. 
 * fetch all URLs listed in the specified file: `wget -i urls.txt`
 * fetch a URL and recursively fetch all URLs in the contents: `wget -r http://www.digitalhumanities.org/dhq/`
 
-A disadvantage of `wget` is that it's not pre-installed on OS X or Windows, but we can remedy that by following the easy instructions found at the _Programming Historian_'s [Automated Downloading with Wget](https://programminghistorian.org/en/lessons/automated-downloading-with-wget#step-one-installation)
+A disadvantage of `wget` is that it's not pre-installed on OS X or Windows, but we can remedy that by following the easy instructions found at the _Programming Historian_'s [Automated Downloading with Wget](https://programminghistorian.org/en/lessons/automated-downloading-with-wget#step-one-installation).
+
+For OS X the instructions on the page above are a bit out of date, here are the commands that seem to work best currently (from the [Homebrew](https://brew.sh) page:
+
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+	 brew install wget
 
 Once installed, we'll also follow the instructions in the [next section](https://programminghistorian.org/en/lessons/automated-downloading-with-wget#step-two-learning-about-the-structure-of-wget--downloading-a-specific-set-of-files) on creating a data directory from which we'll run our command.
 
 	mkdir dhq
 	cd dhq
+
+The first command is to "make directory" (`mkdir`) and the second command is to "change directory" (`cd`).
 
 One of `wget` strengths is in fetching multiple URLs and especially in finding links in one page and following those links to download contents in other pages, and so on recursively. Since `wget` is often used to fetch many URLs it's best to configure it such that is doesn't strain the target server too heavily (by trying to fetch hundreds of URLs as quickly as possible, for instance). A couple of common arguments are added to be a good net citizen (and avoid being blacklisted by servers, which would prevent you from fetching more content).
 
