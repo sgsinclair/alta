@@ -91,7 +91,10 @@ We also add the "Godfather" in the bottom box to ensure that the search and repl
 
 ![Jupyter](../images/jupyter48.png) Using a friendly application like Atom is usually preferable and quicker than writing code ourselves, but there are times where having code is preferable, especially when the circumstances are more complex. Another reason to use code is that the code can be repeatedly re-run whereas the steps taken in the application probably have to be repeated manually each time.
 
-We demonstrate a similar situation with the [Converting notebook]()
+We demonstrate a similar situation with the [Converting Jupyter notebook](https://nbviewer.jupyter.org/github/sgsinclair/alta/blob/master/ipynb/Converting.ipynb).
+
 ## Voyant
 
-![Voyant](../images/voyant48.png)
+![Voyant](../images/voyant48.png) The moment to do format conversion in Voyant is at the outset when one first creates a corpus. As we've seen previously, we can use powerful CSS Selectors and XML XPath expressions to determine which parts of a document should be used. There's even support for some simple filtering of plain text file. The real power of conversion is in Voyant's ability to read dozens of file formats, including PDF, MS Word, OpenOffice, Apple Pages, RTF, etc.
+
+Moreover, since it's possible to export a corpus in a variety of formats one could think of Voyant as a conversion utility for a wide range of formats: upload files in weird and wonderful format and then download the corpus as Voyant XML (minimal structural tagging) or plain text. The download button is located in the toolbar of the [Documents](https://voyant-tools.org/docs/#!/guide/documents) tool. 
