@@ -88,10 +88,10 @@ The _Terms_ tool provides various counts of an existing list, but one of the mos
 * [`*ove`](https://voyant-tools.org/?corpus=austen&query=ove*&view=CorpusTerms): match terms that end with the **suffix** _ove_ as **one term**
 * [`^*ove`](https://voyant-tools.org/?corpus=austen&query=^love*&view=CorpusTerms): match terms that end with **suffix** _ove_ as **separate terms** (love, above, etc.)
 * [`love,hate`](https://voyant-tools.org/?corpus=austen&query=love,hate&view=CorpusTerms): match each term **separated by commas** as **separate terms**
-* [`love\|hate`](https://voyant-tools.org/?corpus=austen&query=love|hate&view=CorpusTerms): match terms **separated by pipes** as a **single term**
+* [`love\|hate`](https://voyant-tools.org/?corpus=austen&query=love\|hate&view=CorpusTerms): match terms **separated by pipes** as a **single term**
 * [`"love him"`](https://voyant-tools.org/?corpus=austen&query="love him"&view=CorpusTerms): _love him_ as an exact **phrase** (word order matters)
 * [`"love him"~0`](https://voyant-tools.org/?corpus=austen&query="love+him"~0&view=CorpusTerms): _love him_ or _him love_ **phrase** (word order doesn't matter but 0 words in between)
 * [`"love her"~5`](https://voyant-tools.org/?corpus=austen&query="love+her"~5&view=CorpusTerms): match _love_ **near** _her_ (within 5 words)
-* [`^love*,love\|hate,"love her"~5`](https://voyant-tools.org/?corpus=austen&query=^love*,hate|love,"love+her"~5&view=CorpusTerms): **combine** syntaxes
+* [`^love*,love\|hate,"love her"~5`](https://voyant-tools.org/?corpus=austen&query=^love*,hate\|love,"love+her"~5&view=CorpusTerms): **combine** syntaxes
 
 Can you find what you're looking for?
