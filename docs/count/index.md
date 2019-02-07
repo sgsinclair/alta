@@ -95,3 +95,5 @@ The _Terms_ tool provides various counts of an existing list, but one of the mos
 * [`^love*,love\|hate,"love her"~5`](https://voyant-tools.org/?corpus=austen&query=^love*,hate\|love,"love+her"~5&view=CorpusTerms): **combine** syntaxes
 
 Can you find what you're looking for?
+
+![Jupyter](../images/jupyter48.png) For the counting unit in Jupyter we'll head over to [Getting Texts](https://nbviewer.jupyter.org/github/sgsinclair/alta/blob/master/ipynb/GettingTexts.ipynb) page of the Art of Literary Text Mining with Jupyter.
