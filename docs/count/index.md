@@ -37,7 +37,7 @@ So, after these brief digressions into character encoding and tokenization we ca
 
 Counting is a key part of the default view of Voyant, in some ways every tool of the main interface uses counting of words.
 
-<iframe src="https://voyant-tools.org/?corpus=austen" style="width: 90%; height: 600px;"></iframe>
+<iframe src="https://voyant-tools.org/?corpus=austen" style="width: 100%; height: 600px;"></iframe>
 
 The Cirrus (word-cloud) tool is about term frequency (position the cursor over terms to see their frequency). Clicking on a term in Cirrus also shows frequency information in the upper middle Reader tool. In the upper-right is the Trends tool which is a combination of counting and distribution. In the bottom right-hand is the Summary tool which contains various counts (number of documents, number of words in the corpus, number of unique words in the corpus, number of words per document, frequency of distinctive words per document, etc.). Finally, the default view also shows the Keyword in context which finds occurrences of words. All five of the tools in the default view rely on term counts, as do most of the other 20 or so tools that are available in Voyant (you can switch tools by clicking on the window icon that appears in the grey header bars of any of the tools.
 
@@ -88,10 +88,10 @@ The _Terms_ tool provides various counts of an existing list, but one of the mos
 * [`*ove`](https://voyant-tools.org/?corpus=austen&query=ove*&view=CorpusTerms): match terms that end with the **suffix** _ove_ as **one term**
 * [`^*ove`](https://voyant-tools.org/?corpus=austen&query=^love*&view=CorpusTerms): match terms that end with **suffix** _ove_ as **separate terms** (love, above, etc.)
 * [`love,hate`](https://voyant-tools.org/?corpus=austen&query=love,hate&view=CorpusTerms): match each term **separated by commas** as **separate terms**
-* [`love|hate`](https://voyant-tools.org/?corpus=austen&query=love|hate&view=CorpusTerms): match terms **separated by pipes** as a **single term**
+* [`love\|hate`](https://voyant-tools.org/?corpus=austen&query=love|hate&view=CorpusTerms): match terms **separated by pipes** as a **single term**
 * [`"love him"`](https://voyant-tools.org/?corpus=austen&query="love him"&view=CorpusTerms): _love him_ as an exact **phrase** (word order matters)
 * [`"love him"~0`](https://voyant-tools.org/?corpus=austen&query="love+him"~0&view=CorpusTerms): _love him_ or _him love_ **phrase** (word order doesn't matter but 0 words in between)
 * [`"love her"~5`](https://voyant-tools.org/?corpus=austen&query="love+her"~5&view=CorpusTerms): match _love_ **near** _her_ (within 5 words)
-* [`^love*,love|hate,"love her"~5`](https://voyant-tools.org/?corpus=austen&query=^love*,hate|love,"love+her"~5&view=CorpusTerms): **combine** syntaxes
+* [`^love*,love\|hate,"love her"~5`](https://voyant-tools.org/?corpus=austen&query=^love*,hate|love,"love+her"~5&view=CorpusTerms): **combine** syntaxes
 
 Can you find what you're looking for?
