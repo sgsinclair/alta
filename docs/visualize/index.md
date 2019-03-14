@@ -41,4 +41,4 @@ freqs.plot(25) # plot the top 25 words
 
 <img src="plot.jpeg" alt="Plot of frequencies" style="max-width: 300px" >
 
-To continue with graphing, please consult [Getting Graphical]( in the Art of Literary Programming with Python.
+To continue with graphing, please consult [Getting Graphical](https://nbviewer.jupyter.org/github/sgsinclair/alta/blob/master/ipynb/GettingGraphical.ipynb) in the Art of Literary Programming with Python.
